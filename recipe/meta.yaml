@@ -1,5 +1,5 @@
 {% set name = "atlasclient" %}
-{% set version = "0.1.7" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b0285338129efd5538e2d9a715ed435f979f6b1ae33aad068f34e7e83e6b4313
+  sha256: f602bad97e47299f996344b92c8b01dc363f3eb643770f676472bcdb2b59596e
 
 build:
   noarch: python
